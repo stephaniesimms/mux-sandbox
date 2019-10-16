@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  margin: 2em 0 1em;
+}
+
+/* Layout */
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#my-player {
+  margin: 0 auto;
+}

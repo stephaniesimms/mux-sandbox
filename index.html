@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link href="https://vjs.zencdn.net/7.6.5/video-js.css" rel="stylesheet">
-  
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>Mux Data Play</title>
+  <link href='https://vjs.zencdn.net/7.6.5/video-js.css' rel='stylesheet'>
+  <link rel="stylesheet" href='./css/style.css'>
+
   <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+  <script src='https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js'></script>
 </head>
+
 <body>
-  <div>Hello, I'm the farting Iguana</div>
-  <video class="video-js" controls preload='auto' width='640' height='264' data-setup='{}'>
-    <source src="./static/iguanaFart.mp4" type="video/mp4">
-  </video>
+  <section class='container'>
+    <h1>Hello, I'm Chiitan</h1>
+    <video id='my-player' class='video-js' controls preload='auto' width='640' height='264' data-setup='{}'>
+      <source src='./static/chiitan.mp4' type='video/mp4'>
+    </video>
+  </section>
   <script src='https://vjs.zencdn.net/7.6.5/video.js'></script>
+  <script src='https://src.litix.io/videojs/2/videojs-mux.js'></script>
+  <script src='./scripts/mux_data.js'></script>
+
 </body>
+
 </html>
